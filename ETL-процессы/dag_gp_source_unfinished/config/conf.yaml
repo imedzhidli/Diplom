@@ -1,0 +1,8 @@
+- DagConfiguration:
+    file_dag_name: dag_gp_source_unfinished
+    dag_name: dag_gp_source_unfinished
+    description: Перенос данных о ОНС из postgresql в greenplum
+    first_start: 2025-04-06-00-00-00
+    owner: imedzhidli
+    scheduler: 30 7 6 * *
+    tags: source_unfinished, ОНС

@@ -1,0 +1,15 @@
+services:
+  clickhouse:
+    image: bitnami/clickhouse:latest
+    container_name: clickhouse
+    environment:
+      - CLICKHOUSE_ADMIN_PASSWORD=admin
+    ports:
+      - "8123:8123"  # HTTP interface
+      - "9123:9000"  # Native client TCP interface
+    volumes:
+      - /home/imedzhidli/docker/docker-clickhouse/clickhouse_data:/bitnami/clickhouse
+    restart: unless-stopped
+
+volumes:
+  clickhouse_data:

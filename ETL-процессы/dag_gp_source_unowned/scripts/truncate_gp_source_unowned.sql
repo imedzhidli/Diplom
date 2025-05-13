@@ -1,0 +1,1 @@
+TRUNCATE TABLE source_unowned

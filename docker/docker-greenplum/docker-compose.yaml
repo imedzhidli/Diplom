@@ -1,0 +1,8 @@
+services:
+  gpdb:
+    image: datagrip/greenplum:6.8
+    container_name: greenplum_container
+    ports:
+      - "6543:5432"
+    volumes:
+      - /home/imedzhidli/docker/docker-greenplum/greenlum_data:/gpdata

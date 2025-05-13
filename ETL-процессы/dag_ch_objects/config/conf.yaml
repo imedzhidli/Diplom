@@ -1,0 +1,8 @@
+- DagConfiguration:
+    file_dag_name: dag_ch_objects
+    dag_name: dag_ch_objects
+    description: ch_objects
+    first_start: 2025-03-23-00-00-00
+    owner: imedzhidli
+    scheduler: 30 7 1 * *
+    tags: objects

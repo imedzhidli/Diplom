@@ -1,0 +1,8 @@
+- DagConfiguration:
+    file_dag_name: dag_ch_source_destructing
+    dag_name: dag_ch_source_destructing
+    description: Перенос данных о ветких объектах в ch_source_destructing
+    first_start: 2025-03-23-00-00-00
+    owner: imedzhidli
+    scheduler: 30 7 1 * *
+    tags: source_destructing, Ветхие объекты

@@ -1,0 +1,2 @@
+DELETE FROM objects
+WHERE 1=1

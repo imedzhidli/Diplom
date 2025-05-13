@@ -1,0 +1,1 @@
+TRUNCATE TABLE object_addresses

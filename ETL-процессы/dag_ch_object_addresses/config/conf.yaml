@@ -1,0 +1,8 @@
+- DagConfiguration:
+    file_dag_name: dag_ch_object_addresses
+    dag_name: dag_ch_object_addresses
+    description: ch_object_addresses
+    first_start: 2025-03-23-00-00-00
+    owner: imedzhidli
+    scheduler: 30 7 1 * *
+    tags: object_addresses

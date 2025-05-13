@@ -1,0 +1,8 @@
+- DagConfiguration:
+    file_dag_name: dag_gp_source_unowned
+    dag_name: dag_gp_source_unowned
+    description: Перенос данных о бесхозных объектах из postgresql в greenplum
+    first_start: 2025-04-06-00-00-00
+    owner: imedzhidli
+    scheduler: 30 7 6 * *
+    tags: source_unowned, Бесхоз

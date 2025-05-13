@@ -1,0 +1,30 @@
+SELECT
+    id,
+    name,
+    full_address,
+    address_reference ,
+    moscow_territory,
+    street,
+    house_number,
+    building_number,
+    room_floor,
+    room_number,
+    post_index,
+    district_admin_id,
+    district_id,
+    parent_cad_num,
+    oks_cad_num,
+    sus_land_cad_nam,
+    unom,
+    center,      -- JSON-хранение как текст
+    geometry,    -- JSON-хранение как текст
+    created_at,
+    updated_at,
+    updated_by_id,
+    city,
+    simple_address,
+    corpus,
+    object_id,
+    address_state_id,
+    address_status_id
+FROM ero.object_addresses

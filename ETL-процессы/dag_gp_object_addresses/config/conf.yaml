@@ -1,0 +1,8 @@
+- DagConfiguration:
+    file_dag_name: dag_gp_object_addresses
+    dag_name: dag_gp_object_addresses
+    description: Перенос object_addresses из postgresql в greenplum
+    first_start: 2025-04-06-00-00-00
+    owner: imedzhidli
+    scheduler: 30 7 6 * *
+    tags: object_addresses

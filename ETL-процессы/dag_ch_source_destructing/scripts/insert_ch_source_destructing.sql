@@ -1,0 +1,21 @@
+SELECT
+    id,
+    problem_id,
+    active,
+    admin_district_id,
+    address,
+    cadastral_number,
+    square,
+    property,
+    subject,
+    grbs,
+    zu_cadastral_number,
+    zu_property,
+    zu_rent,
+    zu_krt,
+    zu_limit,
+    okrug,
+    count,
+    object_id,
+    zu_id
+FROM ero.source_destructing
